@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(219, 219, 219);
+  font-family: Poppins, sans-serif;
+}
+nav {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+nav img {
+  width: 70px;
+}
+nav .btn-contact {
+  background-color: black;
+  width: 170px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+nav .btn-contact a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.card {
+  width: 1200px;
+  margin: 90px auto;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  display: flex;
+  padding: 50px;
+}
+.about {
+  width: 600px;
+}
+.card p {
+  text-align: justify;
+}
+.button {
+  background-color: black;
+  color: white;
+  width: 150px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.download {
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+.icons {
+  margin: 30px;
+}
+div.card-img {
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 100px;
+  padding: 20px;
+}
+.tombol {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* contact */
+
+.card-form {
+  background-color: white;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 90px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.card-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+form label {
+  font-weight: 700;
+}
+form input,
+textarea,
+select,
+option {
+  padding: 20px;
+  border: none;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+  font-family: Poppins, sans-serif;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-form {
+  background-color: black;
+  color: white;
+  width: 150px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+}
+.tombol-form {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+nav ul li a:hover {
+  color: darkorange;
+  transition: 0.2s;
+}
+nav .btn-contact:hover {
+  background-color: darkorange;
+  transition: 0.2s;
+}
+.button:hover {
+  background-color: darkorange;
+  transition: 0.2s;
+}
+.download:hover {
+  color: darkorange;
+  transition: 0.2s;
+}
+.btn-form:hover {
+  background-color: darkorange;
+  transition: 0.2s;
+}

@@ -54,7 +54,8 @@
           required
         />
         <label for="subject">Subject</label>
-        <select name="" id="subject">
+        <select name="subject" id="subject">
+          <option value=""></option>
           <option value="">Frontend Developer</option>
           <option value="">Backend Developer</option>
           <option value="">Fullstack Developer</option>
@@ -69,9 +70,11 @@
           required
         ></textarea>
         <div class="tombol-form">
-          <a href="" class="btn-form">Submit</a>
+          <a href="" class="btn-form" onclick="submitData()">Submit</a>
         </div>
       </form>
     </div>
+
+    <script src="main.js"></script>
   </body>
 </html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Project</title>
+    <link rel="stylesheet" href="myProject.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav>
+      <ul>
+        <li><img src="img/brandred.png" alt="" /></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">My Project</a></li>
+      </ul>
+      <div class="btn-contact">
+        <a href="contact.html">Contact Me</a>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- startmain content -->
+    <div class="content1">
+      <div class="judul">
+        <h1>Add My Project</h1>
+      </div>
+      <div class="formProject">
+        <form onsubmit="upProject(event)">
+          <label for="projectName">Project Name</label>
+          <input type="text" id="projectName" required />
+          <div class="date">
+            <div class="startdate">
+              <label for="startDate">Start Date</label>
+              <input type="date" id="startDate" required />
+            </div>
+            <div class="enddate">
+              <label for="endDate">End Date</label>
+              <input type="date" id="endDate" required />
+            </div>
+          </div>
+          <label for="description">Description</label>
+          <textarea id="description" cols="30" rows="10" required></textarea>
+          <label for="technologies">Technologies</label>
+          <div class="checkboxatas" style="display: flex; gap: 105px">
+            <div class="checkbox1">
+              <input
+                style="margin-right: 20px"
+                type="checkbox"
+                id="nodeJs"
+                value="nodejs"
+              />
+              <label for="nodeJs"> Node JS</label>
+            </div>
+            <div class="label">
+              <input
+                style="margin-right: 20px"
+                type="checkbox"
+                id="nextJs"
+                value="nextjs"
+              />
+              <label for="nextJs"> Next JS</label>
+            </div>
+          </div>
+          <div class="checkboxbawah" style="display: flex; gap: 100px">
+            <div class="checkbox2">
+              <input
+                style="margin-right: 20px"
+                type="checkbox"
+                id="reactJs"
+                value="reactjs"
+              />
+              <label for="reactJs"> React JS</label>
+            </div>
+            <div class="label1">
+              <input
+                style="margin-right: 20px"
+                type="checkbox"
+                id="typeScript"
+                value="typescript"
+              />
+              <label for="typeScript"> TypeScript</label>
+            </div>
+          </div>
+          <label for="inputFile">Upload Image</label>
+          <input type="file" id="inputFile" required />
+          <div class="button">
+            <button class="btn-projek" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- end main content -->
+
+    <!-- start content 2 -->
+    <div class="content2">
+      <h1 style="text-align: center; padding: 30px">My Projects</h1>
+      <div class="cards" id="cards"></div>
+    </div>
+    <!-- end content 2 -->
+    <script src="myProject.js"></script>
+  </body>
+</html>

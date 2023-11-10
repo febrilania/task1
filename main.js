@@ -5,7 +5,12 @@ function submitData() {
   const subject = document.getElementById("subject").value;
   const message = document.getElementById("message").value;
   const emailReceiver = "febrilanianurislami@gmail.com";
-  let a = document.createElement("a");
-  a.href = `mailto:${email}?subject=${subject}&body=${message}`;
-  a.click();
+
+  if (!name) {
+    alert("nama haru diisi");
+  } else {
+    let a = document.createElement("a");
+    a.href = `mailto:${email}?subject=${subject}&body=${message}`;
+    a.click();
+  }
 }

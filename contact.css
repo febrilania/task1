@@ -41,23 +41,38 @@ nav .btn-contact a {
   font-weight: 700;
 }
 
-.card {
-  width: 1200px;
-  margin: 90px auto;
-  box-sizing: border-box;
+.card-form {
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 10px;
+  width: 800px;
   display: flex;
-  padding: 50px;
+  flex-direction: column;
+  justify-content: center;
+  margin: 90px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-sizing: border-box;
+  border-radius: 10px;
 }
-.about {
-  width: 600px;
+.card-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.card p {
-  text-align: justify;
+form label {
+  font-weight: 700;
 }
-.button {
+form input,
+textarea,
+select,
+option {
+  padding: 20px;
+  border: none;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+  font-family: Poppins, sans-serif;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-form {
   background-color: black;
   color: white;
   width: 150px;
@@ -65,28 +80,15 @@ nav .btn-contact a {
   padding: 15px;
   border-radius: 25px;
   cursor: pointer;
-}
-.download {
-  margin: 20px;
   text-decoration: none;
-  color: black;
+  font-weight: 700;
 }
-.icons {
-  margin: 30px;
-}
-div.card-img {
-  width: 350px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-  margin: 0 auto;
-  margin-left: 100px;
-  padding: 20px;
-}
-.tombol {
+.tombol-form {
+  width: 100%;
   display: flex;
-  align-items: center;
-  margin-top: 20px;
+  justify-content: end;
 }
+
 nav ul li a:hover {
   color: darkorange;
   transition: 0.2s;

@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+nav img {
+  width: 70px;
+}
+nav .btn-contact {
+  background-color: black;
+  width: 170px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+nav .btn-contact a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.content1 {
+  background-color: rgb(219, 219, 219);
+  padding: 50px;
+}
+.judul {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.formProject {
+  width: 600px;
+  background-color: white;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.formProject form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.date {
+  display: flex;
+  gap: 20px;
+}
+.date .startdate {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.date .enddate {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+label {
+  font-weight: 700;
+}
+input,
+textarea {
+  padding: 20px;
+  border: none;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+  font-family: Poppins, sans-serif;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button {
+  display: flex;
+  justify-content: end;
+}
+.btn-projek {
+  background-color: black;
+  padding: 10px;
+  width: 120px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+nav ul li a:hover {
+  color: darkorange;
+  transition: 0.2s;
+}
+nav .btn-contact:hover {
+  background-color: darkorange;
+  transition: 0.2s;
+}
+.btn-projek:hover {
+  background-color: darkorange;
+  transition: 0.2s;
+}
+
+/* content 2 */
+.content2 {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.card img {
+  width: 360px;
+  margin: auto;
+}
+.card p {
+  margin: 30px 0;
+  text-align: justify;
+  width: 300px;
+}
+.card button {
+  margin-top: 20px;
+  width: 175px;
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  font-size: medium;
+}
+.icons img {
+  width: 50px;
+}

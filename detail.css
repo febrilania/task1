@@ -1,0 +1,21 @@
+.content {
+  width: 1000px;
+  margin: 50px auto;
+}
+.kontenAtas {
+  display: flex;
+  gap: 100px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.tech {
+  display: flex;
+  gap: 20px;
+}
+.tech ul li {
+  list-style: none;
+}
+.kontenBawah {
+  text-align: justify;
+  font-size: 24px;
+}

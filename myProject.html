@@ -24,12 +24,24 @@
     <nav>
       <ul>
         <li><img src="img/brandred.png" alt="" /></li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="">My Project</a></li>
+        <li class="collapse"><a href="index.html">Home</a></li>
+        <li class="collapse"><a href="">My Project</a></li>
       </ul>
-      <div class="btn-contact">
+      <div class="btn-contact collapse">
         <a href="contact.html">Contact Me</a>
       </div>
+      <i
+        class="fa-solid fa-bars fa-3x"
+        id="hamburgerButton"
+        onclick="openHamburger()"
+      ></i>
+    </nav>
+
+    <div class="hamburger-nav-container" id="hamburger-nav-container">
+      <a href="">Home</a>
+      <a href="">My Project</a>
+      <a href="">Contact</a>
+    </div>
     </nav>
     <!-- end navbar -->
 
@@ -113,5 +125,6 @@
     </div>
     <!-- end content 2 -->
     <script src="myProject.js"></script>
+    <script src="nav.js"></script>
   </body>
 </html>

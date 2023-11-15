@@ -41,6 +41,28 @@ nav .btn-contact a {
   font-weight: 700;
 }
 
+#hamburgerButton {
+  cursor: pointer;
+  display: none;
+}
+.hamburger-nav-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 23px;
+  display: none;
+}
+.hamburger-nav-container a {
+  text-decoration: none;
+  background-color: #a9a9a9;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+}
+.hamburger-nav-container a:hover {
+  background-color: black;
+  color: white;
+}
 .card {
   width: 1200px;
   margin: 90px auto;
@@ -106,4 +128,37 @@ nav .btn-contact:hover {
 .btn-form:hover {
   background-color: darkorange;
   transition: 0.2s;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+  }
+  .about {
+    width: 400px;
+  }
+  div.card-img {
+    margin-left: 0;
+  }
+  .collapse {
+    display: none;
+  }
+  #hamburgerButton {
+    display: unset;
+  }
+  .hamburger-nav-container {
+    display: none;
+    flex-direction: column;
+    font-size: 23px;
+  }
+  .hamburger-nav-container a {
+    text-decoration: none;
+    background-color: #a9a9a9;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+  }
 }

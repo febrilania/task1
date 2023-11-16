@@ -41,6 +41,7 @@ nav .btn-contact a {
   text-decoration: none;
   font-weight: 700;
 }
+
 #hamburgerButton {
   cursor: pointer;
   display: none;
@@ -63,79 +64,40 @@ nav .btn-contact a {
   color: white;
 }
 
-.card-form {
-  background-color: white;
-  width: 800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 90px auto;
-  padding: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  box-sizing: border-box;
-  border-radius: 10px;
-}
-.card-form form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-form label {
-  font-weight: 700;
-}
-form input,
-textarea,
-select,
-option {
-  padding: 20px;
-  border: none;
-  background-color: rgb(219, 219, 219);
-  border-radius: 10px;
-  font-family: Poppins, sans-serif;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-}
-.btn-form {
-  background-color: black;
-  color: white;
-  width: 150px;
+/* Content */
+.judul {
+  margin-top: 50px;
   text-align: center;
-  padding: 15px;
-  border-radius: 25px;
-  cursor: pointer;
-  text-decoration: none;
-  font-weight: 700;
-}
-.tombol-form {
-  width: 100%;
-  display: flex;
-  justify-content: end;
 }
 
-nav ul li a:hover {
-  color: darkorange;
-  transition: 0.2s;
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+  gap: 50px;
 }
-nav .btn-contact:hover {
-  background-color: darkorange;
-  transition: 0.2s;
+.testimonial {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.button:hover {
-  background-color: darkorange;
-  transition: 0.2s;
+.testimonial q {
+  margin-top: 20px;
+  text-align: justify;
+  width: 300px;
+  font-style: italic;
 }
-.download:hover {
-  color: darkorange;
-  transition: 0.2s;
-}
-.btn-form:hover {
-  background-color: darkorange;
-  transition: 0.2s;
+.testimonial h4 {
+  text-align: right;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 768px) {
-  .card-form {
-    width: 600px;
-  }
   .collapse {
     display: none;
   }

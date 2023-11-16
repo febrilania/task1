@@ -45,7 +45,6 @@ nav .btn-contact a {
   display: none;
 }
 .hamburger-nav-container {
-  display: flex;
   flex-direction: column;
   font-size: 23px;
   display: none;

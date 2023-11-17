@@ -69,6 +69,19 @@ nav .btn-contact a {
   margin-top: 50px;
   text-align: center;
 }
+.rating {
+  text-align: center;
+  margin: 50px 0;
+}
+.rating-btn {
+  margin: 20px;
+  padding: 5px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
 
 .testimonials {
   display: flex;

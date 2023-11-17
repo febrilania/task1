@@ -62,14 +62,17 @@ nav .btn-contact a {
   background-color: black;
   color: white;
 }
-
+.judul h1 {
+  text-align: center;
+  margin-top: 50px;
+}
 .card-form {
   background-color: white;
   width: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 90px auto;
+  margin: 50px auto;
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-sizing: border-box;

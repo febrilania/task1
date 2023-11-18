@@ -169,7 +169,7 @@ nav .btn-contact:hover {
 .card p {
   margin: 30px 0;
   text-align: justify;
-  width: 300px;
+  width: 350px;
 }
 .card button {
   margin-top: 20px;
@@ -194,7 +194,7 @@ nav .btn-contact:hover {
 }
 @media only screen and (max-width: 768px) {
   .formProject {
-    width: 500px;
+    width: 400px;
   }
   .collapse {
     display: none;

@@ -133,14 +133,16 @@ nav .btn-contact:hover {
 @media only screen and (max-width: 768px) {
   .card {
     flex-direction: column;
-    width: 500px;
+    width: 400px;
     justify-content: center;
   }
   .about {
-    width: 400px;
+    width: 300px;
+    font-size: 12px;
   }
   div.card-img {
-    margin-left: 0;
+    width: 300px;
+    margin-left: -20px;
   }
   .collapse {
     display: none;
@@ -160,5 +162,18 @@ nav .btn-contact:hover {
     color: white;
     border: 1px solid white;
     padding: 10px;
+  }
+  .button {
+    background-color: black;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
   }
 }
